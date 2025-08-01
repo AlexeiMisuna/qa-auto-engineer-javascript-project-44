@@ -1,7 +1,7 @@
 install: # Установить зависимости
 	npm ci
 
-runGame: # Запустить игру
+runBrainGames: # Запустить игру
 	node bin/brain-games.js
 
 publish: # Отладка публикации
@@ -9,3 +9,6 @@ publish: # Отладка публикации
 
 make lint: # Запуск линтера
 	npx eslint
+
+runBrainEven: # Запустить игру
+	node bin/brain-even.js
