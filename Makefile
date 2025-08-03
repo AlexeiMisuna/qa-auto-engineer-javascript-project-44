@@ -6,3 +6,6 @@ runGame: # Запустить игру
 
 publish: # Отладка публикации
 	npm publish --dry-run
+
+make lint: #Запуск линтера
+	npx eslint

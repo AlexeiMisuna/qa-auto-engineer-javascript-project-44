@@ -1,3 +1,8 @@
 {
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "sonarlint.connectedMode.project": {
+        "connectionId": "mazda51292",
+        "projectKey": "AlexeiMisuna_qa-auto-engineer-javascript-project-44"
+    },
+
 }
