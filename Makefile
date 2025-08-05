@@ -9,3 +9,6 @@ publish: # Отладка публикации
 
 make lint: #Запуск линтера
 	npx eslint
+
+make runGame1: 
+	node bin/brain-even.js
