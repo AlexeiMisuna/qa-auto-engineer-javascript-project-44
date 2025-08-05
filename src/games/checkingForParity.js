@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
-import helpers from './helpers/index.js'
+import helpers from '../helpers/index.js'
 
 export const checkingForParity = () => {
   const isEven = number => number % 2 === 0
