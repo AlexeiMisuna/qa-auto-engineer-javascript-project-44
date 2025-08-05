@@ -5,4 +5,5 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=AlexeiMisuna_qa-auto-engineer-javascript-project-44)](https://sonarcloud.io/summary/new_code?id=AlexeiMisuna_qa-auto-engineer-javascript-project-44)
 
 ### Asciinema
-[![asciicast](https://asciinema.org/a/wrwC2zsxWUNZALYB8WA5VyFUP.svg)](https://asciinema.org/a/wrwC2zsxWUNZALYB8WA5VyFUP)
+[![brain-even](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1.svg)](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1)
+[![brain-calc](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H.svg)](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H)
