@@ -36,6 +36,7 @@ const rules = {
   uncorrectAnswer: ' is wrong answer ;(. Correct answer was ',
   correctAnswer: 'Correct!',
   calculatorGame: 'What is the result of the expression?',
+  nodGame: 'Find the greatest common divisor of given numbers.',
 
 }
 
