@@ -7,3 +7,4 @@
 ### Asciinema
 [![brain-even](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1.svg)](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1)
 [![brain-calc](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H.svg)](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H)
+[![brain-progression](https://asciinema.org/a/yTo6RwJsqzHSDPQErruczVWbg.svg)](https://asciinema.org/a/yTo6RwJsqzHSDPQErruczVWbg)
