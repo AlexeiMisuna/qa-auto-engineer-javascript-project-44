@@ -37,6 +37,7 @@ const rules = {
   correctAnswer: 'Correct!',
   calculatorGame: 'What is the result of the expression?',
   nodGame: 'Find the greatest common divisor of given numbers.',
+  arithmeticProgression: 'What number is missing in the progression?',
 
 }
 
