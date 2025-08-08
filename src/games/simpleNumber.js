@@ -2,17 +2,15 @@
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-
-import { random } from 'mathjs'
 import helpers from '../helpers/index.js'
 
 export const isSimpleNumber = () => {
   const name = helpers.greeting(helpers.greetMessage)
   console.log(helpers.rules.simpleNumber)
+
   for (let i = 0; i < 3; i++) {
-    const numberForQuestion = helpers.getRandomNumber(1, 100)
-    // eslint-disable-next-line @stylistic/template-curly-spacing
-    console.log(`Question:${ numberForQuestion}`)
+   const numberForQuestion = helpers.getRandomNumber(1, 100)
+    console.log(`Question: ${numberForQuestion}`)
     const answer = helpers.getAnswer()
 
     const isSimple = (number) => {
@@ -27,7 +25,7 @@ export const isSimpleNumber = () => {
     }
 
     const correctAnswer = isSimple(numberForQuestion) ? 'yes' : 'no'
-    switch (nanswer) {
+    switch (answer) {
       case correctAnswer:
         console.log(helpers.rules.correctAnswer)
         break
