@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
-import readlineSync from 'readline-sync'
+import * as readlineSync from 'readline-sync'
 
 let name = ''
 const greetMessage = 'greeting'
