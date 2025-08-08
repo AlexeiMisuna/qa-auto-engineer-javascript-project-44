@@ -16,8 +16,8 @@ export const isSimpleNumber = () => {
       if (number === 2) return true;
       if (helpers.isEven(number)) return false;
 
-      for (let a = 3; i * a <= number; a += 2) {
-        if (number % i === 0) return false;
+      for (let a = 3; a * a <= number; a += 2) {
+        if (number % a === 0) return false;
       }
       return true;
     };
