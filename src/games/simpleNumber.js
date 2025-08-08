@@ -11,7 +11,7 @@ export const isSimpleNumber = () => {
   console.log(helpers.rules.simpleNumber)
   for (let i = 0; i < 3; i++) {
     const numberForQuestion = helpers.getRandomNumber(1, 100)
-    console.log(`Question: ${numberForQuestion}`)
+    console.log(`Question: ${helpers.getRandomNumber(1, 100)}`)
     const answer = helpers.getAnswer()
 
     const isSimple = (number) => {
