@@ -38,8 +38,10 @@ const rules = {
   calculatorGame: 'What is the result of the expression?',
   nodGame: 'Find the greatest common divisor of given numbers.',
   arithmeticProgression: 'What number is missing in the progression?',
+  simpleNumber: 'Answer "yes" if given number is prime. Otherwise answer "no".',
 
 }
+  const isEven = number => number % 2 === 0
 
 export default {
   getRandomNumber,
@@ -49,4 +51,5 @@ export default {
   tryAgain,
   victoryMessage,
   rules,
+  isEven,
 }
