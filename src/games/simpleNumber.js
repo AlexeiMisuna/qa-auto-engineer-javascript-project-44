@@ -11,7 +11,8 @@ export const isSimpleNumber = () => {
   console.log(helpers.rules.simpleNumber)
   for (let i = 0; i < 3; i++) {
     const numberForQuestion = helpers.getRandomNumber(1, 100)
-    console.log(`Question: ${numberForQuestion}`)
+    // eslint-disable-next-line @stylistic/template-curly-spacing
+    console.log(`Question:${ numberForQuestion}`)
     const answer = helpers.getAnswer()
 
     const isSimple = (number) => {
@@ -26,7 +27,7 @@ export const isSimpleNumber = () => {
     }
 
     const correctAnswer = isSimple(numberForQuestion) ? 'yes' : 'no'
-    switch (answer) {
+    switch (nanswer) {
       case correctAnswer:
         console.log(helpers.rules.correctAnswer)
         break
