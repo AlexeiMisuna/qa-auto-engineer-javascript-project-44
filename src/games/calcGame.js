@@ -1,8 +1,9 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 /* eslint-disable default-case */
 import helpers from '../helpers/index.js';
 
-const calculatorGame = () => {
+export const calculatorGame = () => {
   helpers.greeting(helpers.greetMessage);
   console.log(helpers.rules.calculatorGame);
 
@@ -50,7 +51,4 @@ const calculatorGame = () => {
     }
   }
   helpers.victoryMessage();
-};
-export default {
-  calculatorGame,
 };

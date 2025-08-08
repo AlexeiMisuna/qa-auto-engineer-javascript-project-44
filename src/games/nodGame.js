@@ -1,8 +1,9 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js';
 
-const greatestCommonDivisor = () => {
+export const greatestCommonDivisor = () => {
   helpers.greeting(helpers.greetMessage);
   console.log(helpers.rules.nodGame);
 
@@ -30,7 +31,4 @@ const greatestCommonDivisor = () => {
     }
   }
   helpers.victoryMessage();
-};
-export default {
-  greatestCommonDivisor,
 };

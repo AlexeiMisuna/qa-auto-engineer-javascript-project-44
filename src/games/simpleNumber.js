@@ -1,7 +1,8 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js';
 
-const isSimpleNumber = () => {
+export const isSimpleNumber = () => {
   helpers.greeting(helpers.greetMessage);
   console.log(helpers.rules.simpleNumber);
 
@@ -37,7 +38,4 @@ const isSimpleNumber = () => {
     }
   }
   helpers.victoryMessage();
-};
-export default {
-  isSimpleNumber,
 };

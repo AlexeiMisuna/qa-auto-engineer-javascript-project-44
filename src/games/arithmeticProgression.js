@@ -1,7 +1,8 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js';
 
-const arithmeticProgression = () => {
+export const arithmeticProgression = () => {
   helpers.greeting(helpers.greetMessage);
   console.log(helpers.rules.arithmeticProgression);
 
@@ -38,7 +39,4 @@ const arithmeticProgression = () => {
   }
 
   helpers.victoryMessage();
-};
-export default {
-  arithmeticProgression,
 };

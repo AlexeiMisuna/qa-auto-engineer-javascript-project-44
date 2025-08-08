@@ -1,7 +1,8 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js';
 
-const checkingForParity = () => {
+export const checkingForParity = () => {
   const isEven = (number) => number % 2 === 0;
   helpers.greeting(helpers.greetMessage);
   console.log(helpers.rules.checkingForParity);
@@ -27,7 +28,4 @@ const checkingForParity = () => {
     }
   }
   helpers.victoryMessage();
-};
-export default {
-  checkingForParity,
 };
