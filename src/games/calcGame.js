@@ -20,7 +20,7 @@ export const calculatorGame = () => {
     console.log(`Question: ${firsOperand} ${operator} ${secondOperand}`)
     const answer = helpers.getAnswer()
     const numericAnswer = Number(answer)
-    const correctAnswer = evaluate(`${firsOperand} ${operator} ${secondOperand}`)
+    const correctAnswer = `${firsOperand} ${operator} ${secondOperand}`
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
     }
