@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
-
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 import helpers from '../helpers/index.js'
@@ -9,7 +7,7 @@ export const isSimpleNumber = () => {
   console.log(helpers.rules.simpleNumber)
 
   for (let i = 0; i < 3; i++) {
-   const numberForQuestion = helpers.getRandomNumber(1, 100)
+    const numberForQuestion = helpers.getRandomNumber(1, 100)
     console.log(`Question: ${numberForQuestion}`)
     const answer = helpers.getAnswer()
 
