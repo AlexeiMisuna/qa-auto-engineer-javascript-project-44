@@ -41,7 +41,7 @@ const rules = {
   simpleNumber: 'Answer "yes" if given number is prime. Otherwise answer "no".',
 
 }
-  const isEven = number => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 export default {
   getRandomNumber,

@@ -1,13 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/restrict-template-expressions */
-/* eslint-disable @typescript-eslint/no-unsafe-return */
+
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
 import { random } from 'mathjs'
 import helpers from '../helpers/index.js'
-
 
 export const isSimpleNumber = () => {
   const name = helpers.greeting(helpers.greetMessage)
