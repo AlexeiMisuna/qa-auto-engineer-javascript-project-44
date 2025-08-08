@@ -11,18 +11,19 @@ export const isSimpleNumber = () => {
   console.log(helpers.rules.simpleNumber)
   for (let i = 0; i < 3; i++) {
     const numberForQuestion = helpers.getRandomNumber(1, 100)
+    console.log(`Question: ${numberForQuestion}`)
+    const answer = helpers.getAnswer()
 
     const isSimple = (number) => {
       if (number <= 1) return false
       if (number === 2) return true
       if (helpers.isEven(number)) return false
-      for (let i = 3; i <= Math.sqrt(number); i += 2) {
+
+      for (let i = 3; i * i <= number; i += 2) {
         if (number % i === 0) return false
       }
       return true
     }
-    console.log(`Question: ${numberForQuestion}`)
-    const answer = helpers.getAnswer()
 
     const correctAnswer = isSimple(numberForQuestion) ? 'yes' : 'no'
     switch (answer) {
