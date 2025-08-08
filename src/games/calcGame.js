@@ -3,7 +3,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import helpers from '../helpers/index.js'
-import { evaluate } from 'mathjs'
 
 export const calculatorGame = () => {
   const name = helpers.greeting(helpers.greetMessage)
@@ -27,14 +26,24 @@ export const calculatorGame = () => {
     const answer = helpers.getAnswer()
     const numericAnswer = Number(answer)
 
-    const expression = `${number1} ${operator} ${number2}`
-    const correctAnswer = evaluate(expression)
+    let correctAnswer
+    switch (operator) {
+      case '+':
+        correctAnswer = number1 + number2
+        break
+      case '-':
+        correctAnswer = number1 - number2
+        break
+      case '*':
+        correctAnswer = number1 * number2
+        break
+    }
 
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
     }
     else {
-      console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`);
+      console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return
     }
