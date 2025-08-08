@@ -12,7 +12,7 @@ export const calculatorGame = () => {
     const firsOperand = helpers.getRandomNumber(1, 100)
     const secondOperand = helpers.getRandomNumber(1, 100)
     const getRandomOperator = () => {
-      const operators = ['+', '-']
+      const operators = ['+', '-', '*']
       const randomIndex = Math.floor(Math.random() * operators.length)
       return operators[randomIndex]
     }
