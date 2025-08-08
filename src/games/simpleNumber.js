@@ -11,8 +11,6 @@ export const isSimpleNumber = () => {
   console.log(helpers.rules.simpleNumber)
   for (let i = 0; i < 3; i++) {
     const numberForQuestion = helpers.getRandomNumber(1, 100)
-    console.log(`Question: ${helpers.getRandomNumber(1, 100)}`)
-    const answer = helpers.getAnswer()
 
     const isSimple = (number) => {
       if (number <= 1) return false
@@ -23,6 +21,8 @@ export const isSimpleNumber = () => {
       }
       return true
     }
+    console.log(`Question: ${numberForQuestion}`)
+    const answer = helpers.getAnswer()
 
     const correctAnswer = isSimple(numberForQuestion) ? 'yes' : 'no'
     switch (answer) {
