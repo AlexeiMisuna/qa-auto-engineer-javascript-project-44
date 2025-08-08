@@ -1,45 +1,38 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/restrict-template-expressions */
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
-import { random } from 'mathjs'
 import helpers from '../helpers/index.js'
 
 export const arithmeticProgression = () => {
   const name = helpers.greeting(helpers.greetMessage)
   console.log(helpers.rules.arithmeticProgression)
-  for (let i = 0; i < 3; i++) {
-    const progressionStart = helpers.getRandomNumber(1, 5)
-    const progressionLength = helpers.getRandomNumber(5, 10)
-    const progressionStep = helpers.getRandomNumber(2, 5)
 
-    const generateArithmeticProgression = (start, count, step) => {
+  for (let i = 0; i < 3; i++) {
+    const progressionStart = helpers.getRandomNumber(1, 10)
+    const progressionStep = helpers.getRandomNumber(1, 5)
+    const progressionLength = helpers.getRandomNumber(5, 10)
+
+    const generateProgression = (start, step, length) => {
       const progression = []
-      for (let i = 0; i < count; i++) {
-        const currentElement = start + i * step
-        progression.push(currentElement)
+
+      for (let i = 0; i < length; i++) {
+        progression.push(start + i * step)
       }
+
       return progression
     }
-    const numberForQuestion = generateArithmeticProgression(progressionStart, progressionLength, progressionStep)
+    const progression = generateProgression(progressionStart, progressionStep, progressionLength)
 
-    const getRandomElementFromArray = (array) => {
-      if (array.length === 0) {
-        return null
-      }
-      const randomIndex = Math.floor(Math.random() * array.length)
-      const originalValue = array[randomIndex]
-      array[randomIndex] = '..'
-      return originalValue
-    }
-    const randomIndex = Math.floor(Math.random() * numberForQuestion.length)
-    const correctAnswer = getRandomElementFromArray(numberForQuestion)
-    console.log(`Question: ${numberForQuestion}`)
+    const hiddenElementIndex = helpers.getRandomNumber(0, progressionLength - 1)
+    const correctAnswer = progression[hiddenElementIndex]
+    progression[hiddenElementIndex] = '..'
+
+    console.log(`Question: ${progression.join(' ')}`)
+
     const answer = helpers.getAnswer()
-    const numericAnswer = Number(answer)
-    if (numericAnswer === correctAnswer) {
+    if (Number(answer) === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
     }
     else {
@@ -48,5 +41,6 @@ export const arithmeticProgression = () => {
       return
     }
   }
+
   helpers.victoryMessage()
 }
