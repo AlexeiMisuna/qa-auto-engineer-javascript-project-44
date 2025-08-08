@@ -1,6 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
-
 import helpers from '../helpers/index.js'
 import { evaluate } from 'mathjs'
 
@@ -9,7 +8,7 @@ export const calculatorGame = () => {
   console.log(helpers.rules.calculatorGame)
 
   for (let i = 0; i < 3; i++) {
-    const firsOperand = helpers.getRandomNumber(1, 100)
+    const firstOperand = helpers.getRandomNumber(1, 100)
     const secondOperand = helpers.getRandomNumber(1, 100)
     const getRandomOperator = () => {
       const operators = ['+', '-', '*']
@@ -17,10 +16,13 @@ export const calculatorGame = () => {
       return operators[randomIndex]
     }
     const operator = getRandomOperator()
-    console.log(`Question: ${firsOperand} ${operator} ${secondOperand}`)
+    console.log(`Question: ${firstOperand} ${operator} ${secondOperand}`)
     const answer = helpers.getAnswer()
     const numericAnswer = Number(answer)
-    const correctAnswer = `${firsOperand} ${operator} ${secondOperand}`
+
+    const expression = `${firstOperand} ${operator} ${secondOperand}`
+    const correctAnswer = evaluate(expression)
+
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
     }
