@@ -12,9 +12,7 @@ export default defineConfig([
     },
     rules: {
       'quotes': ['error', 'single'], // Использовать одинарные кавычки
-      'semi': ['error', 'always'], // Всегда использовать точки с запятой
       'no-trailing-spaces': 'error', // Запретить пробелы в конце строк
-      'arrow-parens': ['error', 'as-needed'], // Запретить скобки для единственного аргумента
     },
   },
 ]);
