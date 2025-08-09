@@ -1,6 +1,6 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import { defineConfig } from 'eslint/config';
+import js from '@eslint/js'
+import globals from 'globals'
+import { defineConfig } from 'eslint/config'
 
 export default defineConfig([
   {
@@ -11,8 +11,8 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
-      'quotes': ['error', 'single'], // Использовать одинарные кавычки
-      'no-trailing-spaces': 'error', // Запретить пробелы в конце строк
+      'quotes': ['error', 'single'], 
+      'no-trailing-spaces': 'error', 
     },
   },
-]);
+])
