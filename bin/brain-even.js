@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { checkingForParity } from '../src/games/checkingForParity.js'
+import { checkingForParity } from '../src/games/checkingForParity.js';
 
-checkingForParity()
+checkingForParity();
