@@ -45,8 +45,7 @@ export const calculatorGame = () => {
 
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
-    } 
-    else {
+    } else {
       console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return

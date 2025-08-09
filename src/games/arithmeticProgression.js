@@ -32,8 +32,7 @@ export const arithmeticProgression = () => {
     const answer = helpers.getAnswer()
     if (Number(answer) === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
-    } 
-    else {
+    } else {
       console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return

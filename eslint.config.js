@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 import pluginJs from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
-import { off } from 'process';
 
 // mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
@@ -53,7 +52,7 @@ export default [
       'import/no-named-as-default-member': 'off',
       'no-console': 'off',
       'import/no-extraneous-dependencies': 'off',
-      'import/prefer-default-export': 'off'
+      'import/prefer-default-export': 'warn',
     },
   },
 ];
