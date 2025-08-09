@@ -11,8 +11,8 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
-      'quotes': ['error', 'single'], 
-      'no-trailing-spaces': 'error', 
+      'quotes': ['error', 'single'],
+      'no-trailing-spaces': 'error',
     },
   },
 ])
