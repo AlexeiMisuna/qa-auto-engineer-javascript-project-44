@@ -1,4 +1,5 @@
-/* eslint-disable semi */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable brace-style */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js'
@@ -32,7 +33,8 @@ export const arithmeticProgression = () => {
     const answer = helpers.getAnswer()
     if (Number(answer) === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
-    } else {
+    } 
+    else {
       console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return

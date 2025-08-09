@@ -1,4 +1,4 @@
-/* eslint-disable semi */
+/* eslint-disable arrow-parens */
 /* eslint-disable consistent-return */
 import * as readlineSync from 'readline-sync'
 
@@ -42,7 +42,7 @@ const rules = {
   simpleNumber: 'Answer "yes" if given number is prime. Otherwise answer "no".',
 
 }
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 export default {
   getRandomNumber,

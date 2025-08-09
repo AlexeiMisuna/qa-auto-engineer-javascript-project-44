@@ -1,4 +1,5 @@
-/* eslint-disable semi */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable brace-style */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
 /* eslint-disable default-case */
@@ -45,7 +46,8 @@ export const calculatorGame = () => {
 
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
-    } else {
+    } 
+    else {
       console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return

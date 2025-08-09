@@ -1,4 +1,5 @@
-/* eslint-disable semi */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable brace-style */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-plusplus */
@@ -25,7 +26,8 @@ export const greatestCommonDivisor = () => {
     const numericAnswer = Number(answer)
     if (numericAnswer === correctAnswer) {
       console.log(helpers.rules.correctAnswer)
-    } else {
+    } 
+    else {
       console.log(`'${answer}${helpers.rules.uncorrectAnswer}${correctAnswer}'.`)
       helpers.tryAgain()
       return
