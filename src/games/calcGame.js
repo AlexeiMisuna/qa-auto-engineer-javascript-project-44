@@ -1,8 +1,3 @@
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable brace-style */
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-plusplus */
-/* eslint-disable default-case */
 import helpers from '../helpers/index.js'
 
 export const calculatorGame = () => {

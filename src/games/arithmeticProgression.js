@@ -1,7 +1,3 @@
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable brace-style */
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js'
 
 export const arithmeticProgression = () => {

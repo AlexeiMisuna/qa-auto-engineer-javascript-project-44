@@ -1,5 +1,3 @@
-/* eslint-disable arrow-parens */
-/* eslint-disable consistent-return */
 import * as readlineSync from 'readline-sync'
 
 let name = ''

@@ -1,5 +1,3 @@
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-plusplus */
 import helpers from '../helpers/index.js'
 
 export const isSimpleNumber = () => {
