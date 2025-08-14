@@ -1,13 +1,13 @@
-import helpers from '../helpers/index.js'
-const playEvenGame = () => {
-  const isEven = number => number % 2 === 0
-  const description = 'Answer "yes" if the number is even, otherwise answer "no".'
-  const generateEvenRound = () => {
-    const numberForQuestion = helpers.getRandomNumber(1, 100)
-    const question = `Question: ${numberForQuestion}`
-    const correctAnswer = isEven(numberForQuestion) ? 'yes' : 'no'
-    return { question, correctAnswer }
-  }
-  helpers.playGames(description, generateEvenRound)
+import helpers from '../helpers/helpers.js'
+import { playGames } from '../index.js'
+const description = 'Answer "yes" if the number is even, otherwise answer "no".'
+const generateRound = () => {
+  const numberForQuestion = helpers.getRandomNumber(1, 100)
+  const question = `Question: ${numberForQuestion}`
+  const correctAnswer = helpers.isEven(numberForQuestion) ? 'yes' : 'no'
+  return { question, correctAnswer }
 }
-export default playEvenGame
+const playGame = () => {
+  playGames(description, generateRound)
+}
+export default playGame

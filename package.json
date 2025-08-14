@@ -25,13 +25,10 @@
     "url": "https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/issues"
   },
   "homepage": "https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44#readme",
-  "dependencies": {
-    "mathjs": "^14.6.0",
-    "readline-sync": "^1.4.10"
-  },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@types/readline-sync": "^1.4.8",
-    "eslint": "^9.33.0"
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0"
   }
 }

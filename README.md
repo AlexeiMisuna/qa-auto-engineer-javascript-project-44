@@ -1,13 +1,20 @@
-# Hexlet-AQA.First project: Brain Game:
-Проект: "Игры разума"
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions)
+
+### SonarQube review
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=AlexeiMisuna_qa-auto-engineer-javascript-project-44)](https://sonarcloud.io/summary/new_code?id=AlexeiMisuna_qa-auto-engineer-javascript-project-44)
+
+# Консольные арифметические игры на JavaScript
+Этот проект — мой первый учебный опыт работы с JavaScript. В нём реализован набор простых арифметических игр, которые запускаются в консоли.
 
 ## Установка и запуск
-### Требования
-* Установленный Node JS не менее 18 версии
-
-## Настройка окружения
-*  Установите зависимости приложения через
-`make instal`
+* Убедитесь, что у Вас установлен NodeJS не менее 18 версии
+* Клонируйте репозиторий 
+`git clone https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44.git`
+* Перейдите в папку проекта 
+`cd qa-auto-engineer-javascript-project-44`
+*  Установите зависимости приложения
+`make install`
 
 ## Запуск игр
 *  Игра: "Проверка на чётность"
@@ -20,12 +27,6 @@
 `brain-progression`
 *  Игра "Простое ли число?"
 `brain-prime`
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions)
-
-### SonarQube review
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=AlexeiMisuna_qa-auto-engineer-javascript-project-44)](https://sonarcloud.io/summary/new_code?id=AlexeiMisuna_qa-auto-engineer-javascript-project-44)
 
 ### Asciinema
 [![even](https://asciinema.org/a/NfpvJPffWz7owtEHuQTLQhNaO.svg)](https://asciinema.org/a/NfpvJPffWz7owtEHuQTLQhNaO)
