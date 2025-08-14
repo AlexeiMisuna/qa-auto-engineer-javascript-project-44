@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { isSimpleNumber } from '../src/games/simpleNumber.js'
+import runPrime from '../src/games/prime.js'
 
-isSimpleNumber()
+runPrime()

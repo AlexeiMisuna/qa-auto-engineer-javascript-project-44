@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { greatestCommonDivisor } from '../src/games/nodGame.js'
+import runGcd from '../src/games/gcd.js'
 
-greatestCommonDivisor()
+runGcd()

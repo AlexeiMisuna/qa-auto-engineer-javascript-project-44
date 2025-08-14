@@ -1,3 +1,26 @@
+# Hexlet-AQA.First project: Brain Game:
+Проект: "Игры разума"
+
+## Установка и запуск
+### Требования
+* Установленный Node JS не менее 18 версии
+
+## Настройка окружения
+*  Установите зависимости приложения через
+`make instal`
+
+## Запуск игр
+*  Игра: "Проверка на чётность"
+`brain-even`
+*  Игра: "Калькулятор"
+`brain-calc`
+*  Игра "НОД"
+`brain-gcd`
+*  Игра "Арифметическая прогрессия"
+`brain-progression`
+*  Игра "Простое ли число?"
+`brain-prime`
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AlexeiMisuna/qa-auto-engineer-javascript-project-44/actions)
 
