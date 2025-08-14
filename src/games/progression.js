@@ -1,6 +1,8 @@
 import helpers from '../helpers/helpers.js'
 import { playGames } from '../index.js'
+
 const description = 'What number is missing in the progression?'
+
 const buildProgression = (start, step, length) => {
   const progression = []
   for (let a = 0; a < length; a++) {
@@ -8,6 +10,7 @@ const buildProgression = (start, step, length) => {
   }
   return progression
 }
+
 const generateRound = () => {
   const start = helpers.getRandomNumber(1, 10)
   const step = helpers.getRandomNumber(1, 5)
@@ -19,7 +22,9 @@ const generateRound = () => {
   const question = `Question: ${progression.join(' ')}`
   return { question, correctAnswer }
 }
+
 const playGame = () => {
   playGames(description, generateRound)
 }
+
 export default playGame

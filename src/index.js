@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync'
 import { greet } from './cli.js'
+
 export const playGames = (description, generateRound) => {
   const name = greet()
   console.log(description)

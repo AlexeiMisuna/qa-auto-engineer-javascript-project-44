@@ -1,11 +1,14 @@
 import helpers from '../helpers/helpers.js'
 import { playGames } from '../index.js'
+
 const operators = ['+', '-', '*']
 const description = 'What is the result of the expression?'
+
 const getRandomElement = (arr) => {
   const randomIndex = Math.floor(Math.random() * arr.length)
   return arr[randomIndex]
 }
+
 const generateRound = () => {
   const number1 = helpers.getRandomNumber(1, 10)
   const number2 = helpers.getRandomNumber(1, 10)
@@ -25,7 +28,9 @@ const generateRound = () => {
   }
   return { question, correctAnswer }
 }
+
 const playGame = () => {
   playGames(description, generateRound)
 }
+
 export default playGame
