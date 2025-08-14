@@ -1,5 +1,4 @@
 import helpers from '../helpers/index.js'
-
 const playPrimeGame = () => {
   const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
   const isEven = number => number % 2 === 0

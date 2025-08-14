@@ -1,5 +1,4 @@
 import helpers from '../helpers/index.js'
-
 const playGcdGame = () => {
   const description = 'Find the greatest common divisor of given numbers.'
   const generateGcdRound = () => {

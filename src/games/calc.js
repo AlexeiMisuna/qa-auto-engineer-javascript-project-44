@@ -1,6 +1,4 @@
-
 import helpers from '../helpers/index.js'
-
 const playCalcGame = () => {
   const description = 'What is the result of the expression?'
   const generateCalcRound = () => {

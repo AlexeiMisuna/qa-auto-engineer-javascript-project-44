@@ -1,6 +1,4 @@
-
 import helpers from '../helpers/index.js'
-
 const playEvenGame = () => {
   const isEven = number => number % 2 === 0
   const description = 'Answer "yes" if the number is even, otherwise answer "no".'

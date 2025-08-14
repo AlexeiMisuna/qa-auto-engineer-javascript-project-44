@@ -1,8 +1,6 @@
-
 import readlineSync from 'readline-sync'
 import greeting from '../cli.js'
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-
 const playGames = (description, generateRound) => {
   const name = greeting()
   console.log(description)
@@ -21,7 +19,6 @@ const playGames = (description, generateRound) => {
   }
   console.log(`Congratulations, ${name}!`)
 }
-
 export default {
   getRandomNumber,
   playGames,

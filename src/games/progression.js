@@ -1,5 +1,4 @@
 import helpers from '../helpers/index.js'
-
 const playProgressionGame = () => {
   const description = 'What number is missing in the progression?'
   const generateProgressionRound = () => {
