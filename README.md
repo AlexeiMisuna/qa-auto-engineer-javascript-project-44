@@ -28,8 +28,8 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=AlexeiMisuna_qa-auto-engineer-javascript-project-44)](https://sonarcloud.io/summary/new_code?id=AlexeiMisuna_qa-auto-engineer-javascript-project-44)
 
 ### Asciinema
-[![brain-even](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1.svg)](https://asciinema.org/a/j60QhktxNgHlWUbXGrz6sIgp1)
-[![brain-calc](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H.svg)](https://asciinema.org/a/orxi9f7bMWNC5u09hFv9GWj6H)
-[![brain-progression](https://asciinema.org/a/yTo6RwJsqzHSDPQErruczVWbg.svg)](https://asciinema.org/a/yTo6RwJsqzHSDPQErruczVWbg)
-[![brain-prime](https://asciinema.org/a/4gtlg6wbut5jcL2mAQiZl56mi.svg)](https://asciinema.org/a/4gtlg6wbut5jcL2mAQiZl56mi)
-[![brain-gcd](https://asciinema.org/a/VgtJAH66B8jlwjiQe7Ssftp2Q.svg)](https://asciinema.org/a/VgtJAH66B8jlwjiQe7Ssftp2Q)
+[![even](https://asciinema.org/a/NfpvJPffWz7owtEHuQTLQhNaO.svg)](https://asciinema.org/a/NfpvJPffWz7owtEHuQTLQhNaO)
+[![calc](https://asciinema.org/a/Xd32072FGUOf6WYoP8ZGIq3m9.svg)](https://asciinema.org/a/Xd32072FGUOf6WYoP8ZGIq3m9)
+[![progresion](https://asciinema.org/a/P87lp4r96QSHKkYbjEjJYDFqK.svg)](https://asciinema.org/a/P87lp4r96QSHKkYbjEjJYDFqK)
+[![prime](https://asciinema.org/a/Z8qR7ZnUhz3dcGhY5cEG73A3h.svg)](https://asciinema.org/a/Z8qR7ZnUhz3dcGhY5cEG73A3h)
+[![gcd](https://asciinema.org/a/Idml4R4OjW0YyqC1oMReG0INS.svg)](https://asciinema.org/a/Idml4R4OjW0YyqC1oMReG0INS)
