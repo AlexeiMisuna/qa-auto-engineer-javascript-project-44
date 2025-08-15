@@ -1,12 +1,13 @@
-import helpers from '../helpers/helpers.js'
+import { getRandom } from '../helpers/helpers.js'
 import { playGames } from '../index.js'
 
+const isEven = number => number % 2 === 0
 const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 const generateRound = () => {
-  const numberForQuestion = helpers.getRandomNumber(1, 100)
-  const question = `Question: ${numberForQuestion}`
-  const correctAnswer = helpers.isEven(numberForQuestion) ? 'yes' : 'no'
+  const number = getRandom(1, 100)
+  const question = `${number}`
+  const correctAnswer = isEven(number) ? 'yes' : 'no'
   return { question, correctAnswer }
 }
 

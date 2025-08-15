@@ -1,7 +1,1 @@
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-const isEven = number => number % 2 === 0
-
-export default {
-  getRandomNumber,
-  isEven,
-}
+export const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min

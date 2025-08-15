@@ -13,7 +13,7 @@ export default defineConfig([
       'quotes': ['error', 'single'],
       'no-trailing-spaces': 'error',
       'eol-last': ['error', 'always'],
-      'no-multiple-empty-lines': ['error', { max: 0 }],
+      'no-multiple-empty-lines': ['error', { max: 1 }],
     },
   },
 ])
