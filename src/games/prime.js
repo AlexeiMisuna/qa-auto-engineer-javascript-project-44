@@ -8,8 +8,8 @@ const isPrime = (number) => {
   if (number === 2) return true
   if (number % 2 === 0) return false
 
-  const numberSqrt = Math.sqrt(number)
-  for (let a = 3; a <= numberSqrt; a += 2) {
+  const maxDivisor = Math.sqrt(number)
+  for (let a = 3; a <= maxDivisor; a += 2) {
     if (number % a === 0) return false
   }
   return true

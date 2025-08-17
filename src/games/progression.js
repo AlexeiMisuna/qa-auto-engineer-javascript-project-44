@@ -17,7 +17,7 @@ const generateRound = () => {
   const length = getRandom(5, 10)
   const progression = buildProgression(start, step, length)
   const hiddenElementIndex = getRandom(0, progression.length - 1)
-  const correctAnswer = progression[hiddenElementIndex].toString()
+  const correctAnswer = String(progression[hiddenElementIndex])
   progression[hiddenElementIndex] = '..'
   const question = `${progression.join(' ')}`
   return { question, correctAnswer }

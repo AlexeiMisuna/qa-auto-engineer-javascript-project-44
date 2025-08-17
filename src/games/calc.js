@@ -3,22 +3,18 @@ import { playGames } from '../index.js'
 
 const operators = ['+', '-', '*']
 const description = 'What is the result of the expression?'
+
 const generateAnswer = (number1, number2, operator) => {
-  let correctAnswer
   switch (operator) {
     case '+':
-      correctAnswer = number1 + number2
-      break
+      return number1 + number2
     case '-':
-      correctAnswer = number1 - number2
-      break
+      return number1 - number2
     case '*':
-      correctAnswer = number1 * number2
-      break
+     return number1 * number2
     default:
       throw new Error('Unknown operator')
   }
-  return correctAnswer.toString()
 }
 
 const generateRound = () => {
@@ -26,7 +22,7 @@ const generateRound = () => {
   const number2 = getRandom(1, 10)
   const operator = operators[0, getRandom(0, operators.length - 1)]
   const question = `${number1} ${operator} ${number2}`
-  const correctAnswer = generateAnswer(number1, number2, operator)
+  const correctAnswer = String(generateAnswer(number1, number2, operator))
   return { question, correctAnswer }
 }
 
